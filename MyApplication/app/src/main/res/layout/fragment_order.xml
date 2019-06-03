@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".order">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Food Items"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#00796B" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#000"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:text="Veg"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:id="@+id/channa"
+                            android:text="Channa (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:id="@+id/dalmakhni"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Dal Makhni (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Chole Bhature (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Paneer Tikka (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Saag (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Dhaba Dal (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Lassi (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Dal Chawal (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Full Thali1 (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Full Thali 2 (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Rich Thali (50 rs/-)" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="#000"
+                            android:textColor="#fff"
+                            android:text="Non-Veg"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Fish Tikka Amritsari (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Murgh Malai (50 rs/-)" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bread"
+                            android:textColor="#fff"
+                            android:background="#000"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Paneer Naan (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Luchha Paratha (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Butter Roti (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Butter Naan (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Tandoori Roti (50 rs/-)" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Snacks and Drinks"
+                            android:textColor="#fff"
+                            android:background="#000"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Tea (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Coffee (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Burger (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Chilli Potato (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Dahi Bhalla (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Gol Gappe (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Momos (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Noodles (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Pasta (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Pav Bhaji (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Raj Kachori (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Samosa (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Spring Rolls (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Bread Pakora (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Cold Drinks (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Red Bull (50 rs/-)" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Sweets"
+                            android:textColor="#fff"
+                            android:background="#000"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Dhokla (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Laddu (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Chum Chum (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Gulab Jamun (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Ghevar (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Kaju Katli (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Rasgulla (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:text="Rasmalai (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Soan Papdi (50 rs/-)" />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:gravity="right"
+                            android:textSize="18dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sohan Halwa (50 rs/-)" />
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Quantity: "
+                    android:id="@+id/quantity"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/add"
+                    android:text="+" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subtrack"
+                    android:layout_weight="1"
+                    android:text="-" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="8"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:id="@+id/orderis"
+                    android:text="your order is: "/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/submitorder"
+                    android:layout_height="wrap_content"
+                    android:text="submit"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

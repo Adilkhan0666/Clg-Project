@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Enter_Student_Details">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/rollnumberid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Roll No"
+                android:inputType="number"
+                android:maxLength="10" />
+
+            <EditText
+                android:id="@+id/name_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Name" />
+
+            <EditText
+                android:id="@+id/email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Email" />
+
+            <EditText
+                android:id="@+id/idcardno_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Id Card" />
+
+            <EditText
+                android:id="@+id/adharcard_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Aadhar" />
+
+            <EditText
+                android:id="@+id/placedorunplaced_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Placement Status" />
+
+            <EditText
+                android:id="@+id/studentyear_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Student Year" />
+
+            <EditText
+                android:id="@+id/totalacademicpercentage_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Total Acadmic Percentage" />
+
+            <EditText
+                android:id="@+id/attendence_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Total Attendence" />
+
+            <EditText
+                android:id="@+id/totalbacklog_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Enter Total Backlog Record" />
+
+            <Button
+                android:id="@+id/submitattendence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="submit" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

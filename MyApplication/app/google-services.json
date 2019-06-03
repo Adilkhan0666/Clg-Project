@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "470966519811",
+    "firebase_url": "https://democampus-49fb5.firebaseio.com",
+    "project_id": "democampus-49fb5",
+    "storage_bucket": "democampus-49fb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470966519811:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470966519811-8k93b1lf7sue1epam8153ro5s7lk3qcp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "4a8a65e396bb67b33140f5fabcab127664afca98"
+          }
+        },
+        {
+          "client_id": "470966519811-n9p9s36sq2r0ait08a5s1v58k5rebs54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxvccGz9EXxvOj9LIpLbKJjadBCT9f0D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470966519811-n9p9s36sq2r0ait08a5s1v58k5rebs54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

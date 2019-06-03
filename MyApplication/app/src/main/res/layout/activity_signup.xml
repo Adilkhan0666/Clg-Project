@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="com.example.adil.dhaba.Signup">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/dava"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="11dp"
+                android:background="#7986CB"
+                android:ems="10"
+                android:hint="Enter Email"
+                android:inputType="textPersonName"
+                android:padding="7dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:background="#7986CB"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+
+                />
+
+            <EditText
+                android:id="@+id/cpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="7dp"
+                android:background="#7986CB"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="11dp"
+                android:ems="10"
+                android:hint="Enter Confirm Password"
+                android:inputType="textPassword"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:text="Sign up"
+                    android:layout_marginRight="85dp"
+                    android:layout_marginLeft="85dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/skip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff4"
+                android:gravity="center"
+                android:text="skip"
+                android:layout_marginRight="85dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

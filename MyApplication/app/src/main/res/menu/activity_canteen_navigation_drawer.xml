@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/punjabifood"
+            android:icon="@drawable/punjabifood"
+            android:title="Punjabi Food" />
+        <item
+            android:id="@+id/snacksfood"
+            android:icon="@drawable/punjabifood"
+            android:title="Snacks" />
+        <item
+            android:id="@+id/sweetsfood"
+            android:icon="@drawable/punjabifood"
+            android:title="Sweets" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/punjabifood"
+            android:title="Order" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/punjabifood"
+            android:title="Gallery" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/punjabifood"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/punjabifood"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>

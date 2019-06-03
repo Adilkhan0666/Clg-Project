@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".StudentPanel">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#00574B"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/notice_textView"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="Notices"
+                android:textColor="#c0b3c5"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/academicUpdate_textView"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="Academic Updates"
+                android:textColor="#c0b3c5"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/attendence_textView"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="AKTU Circulars"
+                android:textColor="#c0b3c5"
+                android:textSize="28dp"
+
+                />
+            <TextView
+                android:id="@+id/aktu_result"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="AKTU Result"
+                android:textColor="#c0b3c5"
+                android:textSize="28dp"
+
+                />
+
+            <TextView
+                android:id="@+id/placementUpdate_textView"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="Placement Updates"
+                android:textColor="#c0b3c5"
+                android:textSize="28dp" />
+
+
+            <TextView
+                android:id="@+id/keccanteen_textView"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="KEC Canteen"
+                android:textColor="#c0b3c5"
+                android:textSize="28dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
